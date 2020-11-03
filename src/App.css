@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+#recaptcha {
+  width: 304px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #143a84;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #143a84;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px 0px;;
+  text-indent: 0px;
+}
+
+button:hover {
+  background-color: #0b214c;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #143a84;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h2 {
+  color: #143a84;
+}
+
+form {
+  right: 50px;
+  width: 384px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 100px auto 20px auto;
+  box-shadow: 0 0 10px;
+}
+
+span { 
+  display: block; 
+  overflow: hidden; 
+  padding: 5px 0px; 
+} 
+
+input { 
+  width: 70%; 
+}
+
+::placeholder{
+  color: #722c7b;
+}
+
+a {
+  color:  #722c7b;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px 0px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+#error {
+  color: red;
+}
